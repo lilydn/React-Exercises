@@ -1,4 +1,5 @@
-**To start an exercise:** each exercise folder is the "src" folder of the react app - just change folder name to 'src'.
+**To start an exercise:** <br> 
+each exercise folder is the src folder of the react app (just change folder name to src).
 ##
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
