@@ -2,10 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: linear-gradient(0deg, rgba(212,221,238,1) 4%, rgba(236,221,205,1) 99%);
 }
 
-.q1-input_range,
-.q2-input_text {
-  width: 100%;
-}
+
 

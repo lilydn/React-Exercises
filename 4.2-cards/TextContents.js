@@ -14,9 +14,3 @@ const TextContents = (props) => {
 
 export default TextContents;
 
-
-
-// title="Some Title"
-// description="Some description"
-// firstLink="SHARE"
-// secondLink="EXPLORE"
