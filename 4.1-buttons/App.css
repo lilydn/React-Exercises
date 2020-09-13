@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.q1-input_range,
+.q2-input_text {
+  width: 100%;
+}
+
