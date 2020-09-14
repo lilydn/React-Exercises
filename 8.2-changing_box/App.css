@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, rgba(212,238,225,1) 10%, rgba(249,243,198,1) 100%);
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
