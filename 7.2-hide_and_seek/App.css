@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, rgba(212,238,225,1) 10%, rgba(249,243,198,1) 100%);
+  height: 100vh;
+}
+
+.container {
+  border: 1px solid black;
+  height: 200px;
+  width: 150px;
+}
+
+.showhideBtn {
+  margin: 25px;
+}
+
+.dissapearingBox {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  margin-left: 25px;
+}
