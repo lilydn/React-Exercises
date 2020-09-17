@@ -3,7 +3,7 @@ import "./App.css";
 
 class CustomButton extends React.Component {
 	onClick = () => {
-		this.props.onClick(this.props.color);
+		this.props.handleClick(this.props.color);
 	};
 
 	render() {

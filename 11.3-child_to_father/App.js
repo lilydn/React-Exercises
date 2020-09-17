@@ -14,7 +14,7 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				{colors.map((color) => {
-					return <CustomButton onClick={this.onBtnClick} color={color} />;
+					return <CustomButton handleClick={this.onBtnClick} color={color} />;
 				})}
 				<p>The color selected is: {this.state.color}</p>
 			</div>
