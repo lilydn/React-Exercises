@@ -7,13 +7,13 @@ export class SlidingBox extends React.Component {
 state = { boxAppears: false };
 
 componentDidMount() {
-  const timer = setTimeout(() => {
+  setTimeout(() => {
     this.setState({boxAppears: true});
   }, 1000);
-  const timerOff = setTimeout(() => {
+  setTimeout(() => {
     this.setState({boxAppears: false});
   }, 6000);
-  return () => clearTimeout(timer, timerOff);
+  // return () => clearTimeout(timer, timerOff);
 }
 
 render() {

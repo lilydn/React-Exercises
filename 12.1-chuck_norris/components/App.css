@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(0deg, rgba(212,238,225,1) 10%, rgba(249,243,198,1) 100%);
+  font-size: 25px;
+  height: 100vh;
+}
+
+.joke-display {
+  max-width: 80vw;
+  text-align: center;
+}
