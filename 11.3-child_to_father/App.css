@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 25px;
+  height: 100vh;
+}
+
+.custom-buttons > button {
+  padding: 5px 20px;
+  margin: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.custom-buttons > [data-color="blue"] {
+  background-color: #4863ff;
+}
+
+.custom-buttons > [data-color="red"] {
+  background-color: red;
+}
+
+.custom-buttons > [data-color="yellow"] {
+  background-color: yellow;
+}
