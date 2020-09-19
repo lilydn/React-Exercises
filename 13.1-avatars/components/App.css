@@ -1,0 +1,56 @@
+/* 13.1-avatars */
+.App {
+  padding: 20px;
+}
+
+.App,
+.loading-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  min-height: 100vh;
+}
+
+.loading-page {
+  justify-content: center;
+  height: 100vh;
+}
+
+.loader {
+  border-top: 8px #4f965c solid;
+  border-right: 8px transparent solid;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation-name: loader;
+  animation-duration: 1.5s;
+  animation-timing-function: linear; 
+  animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.input-and-btn-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.avatars-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 16px;
+  margin: 40px;
+}
+
+@media only screen and (min-width: 850px) {
+  .avatars-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.25fr));
+  }
+}

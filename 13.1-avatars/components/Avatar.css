@@ -1,0 +1,31 @@
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  background: white;
+  box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.52);
+}
+
+.avatar-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px 2px 0 2px;
+  text-align: center;
+  height: 60px;
+}
+
+.avatar-image {
+  padding: 15px;
+  width: 90%;
+  height: auto;
+}
+
+@media only screen and (min-width: 850px) {
+  .avatar {
+    max-width: 220px;
+  }
+}
