@@ -1,14 +1,64 @@
+/* 12.1-chuck_norris */
 .App {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
-  background: linear-gradient(0deg, rgba(212,238,225,1) 10%, rgba(249,243,198,1) 100%);
   font-size: 25px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .joke-display {
-  max-width: 80vw;
+  width: 80%;
+  background-color: white;
   text-align: center;
+  box-shadow: 0px 0px 19px -5px rgba(82, 28, 78, 0.52);
+  margin: 20px;
+}
+
+.joke-display > p {
+  padding: 40px;
+  text-align: center;
+  line-height: 2rem;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.categories-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+.btn {
+  color: white;
+  padding: 0.7rem;
+  margin: 5px;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btnCategoryJoke {
+  background: rgb(168, 109, 196);
+}
+
+.btnCategoryJoke:focus {
+  outline-color: rgb(168, 109, 196);
+}
+
+.btnRandomJoke {
+  background: rgb(218, 167, 0);
+  margin: 25px 15px;
+}
+
+.btnRandomJoke:focus {
+  outline-color: rgb(218, 167, 0);
 }

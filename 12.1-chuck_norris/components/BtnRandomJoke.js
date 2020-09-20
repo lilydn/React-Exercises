@@ -5,12 +5,12 @@ import './App.css';
 class BtnRandomJoke extends React.Component {
 
   onBtnClick = () => {
-    this.props.onClick();
+    this.props.handleClick();
   };
 
   render() {
     return (
-      <button className="btnRandomJoke" onClick={() => this.onBtnClick()}>Get Random Joke</button>
+      <button className="btn btnRandomJoke" onClick={() => this.onBtnClick()}>Get A Random Joke</button>
     );
   }
 }
