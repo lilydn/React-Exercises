@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/8.1-box-animation-v2
+/13.1-avatars-v2
 /.pnp
 .pnp.js
 
