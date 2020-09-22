@@ -9,11 +9,6 @@ class CustomInput extends React.Component {
   }
 
   componentDidMount() {
-    console.log(this.inputRef);
-    window.addEventListener('load', this.utilizeFocus);
-  }
-
-  utilizeFocus = () => {
     this.inputRef.current.focus();
   }
 
