@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-button {
+  padding: 5px 15px;
+  margin: 15px;
+}
+
+textarea {
+  padding: 10px;
+}
